@@ -3,7 +3,10 @@ package com.gan.common;
 
 public class Constants {
 
-    public final static String FILE_UPLOAD_DIC = "/Users/shikee/gan/springboot-gan-api/springboot-gan-api/src/main/upload/";//上传文件的默认url前缀，根据部署设置自行修改
+
+    public final static String FILE_UPLOAD_VIDEO = "/Users/shikee/gan/gan_video/gan_video/src/main/resources/static/video/";//上传食品的默认url前缀，根据部署设置自行修改
+
+    public final static String FILE_UPLOAD_IMAGES = "/Users/shikee/gan/gan_video/gan_video/src/main/resources/static/images/";//上传图片的默认url前缀，根据部署设置自行修改
 
     public final static int INDEX_CAROUSEL_NUMBER = 5;//首页轮播图数量(可根据自身需求修改)
 

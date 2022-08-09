@@ -31,8 +31,8 @@ public class GanWebMvcConfigurer extends WebMvcConfigurationSupport {
     }
 
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/src/main/upload/**").addResourceLocations("file:" + Constants.FILE_UPLOAD_DIC);
-        registry.addResourceHandler("/goods-img/**").addResourceLocations("file:" + Constants.FILE_UPLOAD_DIC);
+        registry.addResourceHandler("/static/video/**").addResourceLocations("file:" + Constants.FILE_UPLOAD_VIDEO);
+        registry.addResourceHandler("/static/images/**").addResourceLocations("file:" + Constants.FILE_UPLOAD_IMAGES);
 
         registry.
                 addResourceHandler("/swagger-ui/**")
