@@ -92,7 +92,8 @@ public class Config {
     public static final String DRIVER = "com.mysql.cj.jdbc.Driver";
 
     /** 表名，为空，生成所有的表 */
-    public static final String[] TABLE_NAMES = {"gan_admin","gan_admin_token","gan_user","gan_user_token"};
+//    public static final String[] TABLE_NAMES = {"gan_admin","gan_admin_token","gan_user","gan_user_token"};
+    public static final String[] TABLE_NAMES = {"gan_viprule"};
 
     /** 剔除公共字段 驼峰命名 */
 //    public static final String[] COMMON_FIELD = {"remark", "createdByCode", "createdByName", "createdDate", "updatedByCode", "updatedByName", "updatedDate", "createTime", "updatedTime"};
